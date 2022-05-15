@@ -43,13 +43,51 @@ body {
   margin-right: 20px;
 }
 .sub-card {
+  display: flex;
   width: 420px;
   height: 130px;
   background-color: hsl(225, 100%, 98%);
   border-radius: 20px;
   margin: auto;
+
+  align-items: center;
 }
 .sub-card-image {
   width: 80px;
   padding: 25px;
+}
+.sc-titulo-grande {
+  text-align: center;
+  font-size: 15px;
+  color: black;
+  font-weight: 700;
+}
+
+.tamanho {
+  width: 10%;
+}
+
+.change {
+  margin-left: 40%;
+  font-weight: 700;
+  color: hsl(231deg 72% 58%);
+}
+
+.outra-cor {
+  color: hsl(252, 3%, 61%);
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 420px;
+  height: 50px;
+  background-color: hsl(231deg 72% 58%);
+  margin: 40px;
+  border-style: none;
+  border-radius: 10px;
+}
+.text-button {
+  color: #fff;
+  font-size: 20px;
 }
