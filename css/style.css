@@ -47,7 +47,7 @@ body {
   width: 420px;
   height: 130px;
   background-color: hsl(225, 100%, 98%);
-  border-radius: 20px;
+  border-radius: 10px;
   margin: auto;
 
   align-items: center;
@@ -98,4 +98,45 @@ body {
   justify-content: center;
   color: hsl(250, 2%, 51%);
   font-size: 17px;
+}
+
+@media (min-width: 375px) {
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  body {
+    position: absolute;
+  }
+  .card {
+    width: 350px;
+    height: 700px;
+  }
+  .card-image {
+    width: 350px;
+  }
+  .card-titulo-grande {
+    font-size: 15px;
+  }
+  .card-titulo-pequeno {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 18px;
+  }
+  .sub-card {
+    width: 300px;
+    height: 100px;
+  }
+  .sub-card-image {
+    width: 60px;
+    padding: 25px;
+  }
+  .change {
+    margin-left: 30%;
+  }
+  .button {
+    width: 300px;
+    margin-left: 25px;
+  }
 }
