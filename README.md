@@ -1,2 +1,1 @@
-# D6
-Desafio 6 Buser Tech
+# [Acesse a página]{https://edinaildo.github.io/D6/}
